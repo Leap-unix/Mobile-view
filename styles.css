@@ -1,0 +1,26 @@
+
+.container {
+  overflow: hidden;
+  height: 200px;
+  border-style: solid;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,100px);
+  margin: 0;
+  }
+
+  .item {
+    margin: 0;
+    height: 100px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+  }
+
+
+body{
+	background-size: cover;
+  background-image: url('https://img.freepik.com/free-photo/gradient-iphone-wallpaper-oil-bubble-water-background_53876-176849.jpg');
+}
